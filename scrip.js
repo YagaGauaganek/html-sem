@@ -8,5 +8,6 @@ let analogueCamera = prompt("Hi user, tell me what camera you use?");
     }
 
     const welcomeMsg = alert("Welcome to my page " + userName);
+    
 
     document.write("Hello " + userName + " thank you for visiting my site");
