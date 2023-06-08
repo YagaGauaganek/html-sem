@@ -81,3 +81,18 @@ if (myNum === 5) {
     const welcomeMsg = alert("Welcome to my page " + userName);
 
     document.write("Hello " + userName + " thank you for visiting my site");
+
+
+    let analogueCamera = prompt("Hi user, tell me what camera you use?");
+
+    if (analogueCamera === "digital") {
+        alert ("digital has no soul");
+    } else {
+        alert("Let's load the roll and shoot film together, " + analogueCamera);
+    }
+
+    let userName = prompt("Hi user :) please tell me your name");
+    console.log(userName);
+    const welcomeMsg = alert("Welcome to my page " + userName);
+    
+    document.write("Hello " + userName + " thank you for visiting my site");

@@ -1,3 +1,17 @@
 * {
-    font-style:monospace;
+    font-family:monospace;
+}
+
+* {
+    text-align: center;
+    margin: 2 rem;
+}
+
+body {
+background-color: lightgrey;
+}
+
+section {
+    margin: 10px 50px 100px 1px;
+    border: 10px solid white;
 }
