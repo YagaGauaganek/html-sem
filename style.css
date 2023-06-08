@@ -12,6 +12,5 @@ background-color: lightgrey;
 }
 
 section {
-    margin: 10px 50px 100px 1px;
-    border: 10px solid white;
+    background: white;
 }
