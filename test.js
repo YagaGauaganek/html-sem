@@ -182,14 +182,14 @@ return document.write(message);
 // practical use  - and
 
 function timeOfDay() {
-    let time =ptompt("what hour is it?" (0-23));
+    let time =ptompt("what hour is it? (0-23)");
     let message = ""
     
     if(time <= 11 && location === "England") {
         message = "Good Morning";
     } else if(time<= 18 && location === "England") {
         message = "Good Afternoon";
-    } else if  (time < 24 && location === "England")) {
+    } else if  (time < 24 && location === "England") {
         message = "good Night";
     } else {
         message = "yo, thats not a time dude!";
@@ -201,7 +201,7 @@ function timeOfDay() {
 // practical use  - pipes |
 
 function timeOfDay() {
-    let time =prompt("what hour is it?" (0-23));
+    let time =prompt("what hour is it? (0-23)");
     let message = ""
     
     if(time <= 11 || location === "England") {
