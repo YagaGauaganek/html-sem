@@ -1,3 +1,5 @@
+// **Dynamic pages with java Script**
+
 let myName="Yaga";
 console.log(myName);
 
@@ -96,3 +98,121 @@ if (myNum === 5) {
     const welcomeMsg = alert("Welcome to my page " + userName);
     
     document.write("Hello " + userName + " thank you for visiting my site");
+
+// **Programing with Java Script
+
+// *Functions*
+// function.js file
+
+    "use strict"
+
+// syntax - function keyword/ function name/ parameter / curly braces for the body
+
+// function declaration
+
+mySum();
+mySum();
+function mySum(){
+   let x = 2 + 2;
+   console.log(x); 
+}
+
+//function exspression
+
+let help;
+
+const myFunc = function() {
+    let help = 3 * 3;
+    console.log(help);
+}
+
+const myFunc = function() {
+    let help = 3;
+    // console.log(help);
+}
+
+myFunc();
+
+// parameters and arguments
+
+function bestSum(param1, param2) {
+    let x = param1, param2;
+    console.log(x);
+}
+
+bestSum(10, 10);
+bestSum("My name is", "Yaga");
+bestSum("I am only", 23);
+
+function theReturningSum(num1, num2, num3){
+    let sum = num1 = num2;
+    let sumDivided = sum / num3;
+    let help = "help";
+    return sumDivided;
+}
+// console.log(theReturningSum(30, 30, 3));
+// console.log(theReturningSum(50, 50, 4));
+
+console.log(theReturningSum());
+
+//top.js file
+
+function yourName() {
+    let user = prompt("what is your name");
+    return document.write(user);
+}
+
+function timeOfDay() {
+let time =ptompt("what hour is it?" (0-23));
+let message = ""
+
+if(time <= 11){
+    message = "Good Morning";
+} else if(time <= 18){
+    message = "Good Afternoon";
+} else if  (time < 24) {
+    message + "good Night";
+} else {
+    message = "yo, thats not a time dude!";
+}
+
+return document.write(message);
+} 
+
+// practical use  - and
+
+function timeOfDay() {
+    let time =ptompt("what hour is it?" (0-23));
+    let message = ""
+    
+    if(time <= 11 && location === "England") {
+        message = "Good Morning";
+    } else if(time<= 18 && location === "England") {
+        message = "Good Afternoon";
+    } else if  (time < 24 && location === "England")) {
+        message = "good Night";
+    } else {
+        message = "yo, thats not a time dude!";
+    }
+    
+    return document.write(message);
+}
+
+// practical use  - pipes |
+
+function timeOfDay() {
+    let time =prompt("what hour is it?" (0-23));
+    let message = ""
+    
+    if(time <= 11 || location === "England") {
+        message = "Good Morning";
+    } else if(time<= 18 || location === "England") {
+        message = "Good Afternoon";
+    } else if  (time < 24 || location === "England") {
+        message + "good Night";
+    } else {
+        message = "yo, that's not a time, dude!";
+    }
+    
+    return document.write(message);
+}
