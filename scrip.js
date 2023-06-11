@@ -1,8 +1,8 @@
 
-let analogueCamera = prompt("Hi user, tell me what camera you use?");
+let analogueCamera = prompt("Hi user, If you were an camera, what would be your name?");
 
     if (analogueCamera === "digital") {
-        alert ("digital has no soul");
+        alert ("Digital has no soul");
     } else {
         alert("Let's load the roll and shoot film together, " + analogueCamera);
     }

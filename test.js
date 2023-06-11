@@ -163,8 +163,8 @@ function yourName() {
 }
 
 function timeOfDay() {
-let time =ptompt("what hour is it?" (0-23));
-let message = ""
+let time =ptompt("what hour is it? (0-23)");
+let message = "";
 
 if(time <= 11){
     message = "Good Morning";
@@ -182,12 +182,12 @@ return document.write(message);
 // practical use  - and
 
 function timeOfDay() {
-    let time =ptompt("what hour is it? (0-23)");
+    let time =prompt("what hour is it? (0-23)");
     let message = ""
     
     if(time <= 11 && location === "England") {
         message = "Good Morning";
-    } else if(time<= 18 && location === "England") {
+    } else if(time <= 18 && location === "England") {
         message = "Good Afternoon";
     } else if  (time < 24 && location === "England") {
         message = "good Night";
@@ -216,3 +216,83 @@ function timeOfDay() {
     
     return document.write(message);
 }
+
+//**Loops and Operatos
+
+let myPets = ["dog", "cat", "goldfish"]
+
+// initailization/ condition / increment
+
+for (let i = 0; i < myPets.length; i++){
+    console.log("I love my pet " + myPets[i])
+}
+
+// while loop
+
+// while (condition){
+// statement
+//}
+
+let n = 0;
+let x = 0;
+while(n < 3){
+    n++;
+    x += n;
+    console.log(n);
+    console.log(x); 
+
+    if (x >+ 3) {
+        break; 
+    }
+}
+
+let answer;
+
+while(answer != 7) {
+    answer = prompt ("Guess a number between 1 and 10");
+    if (answer !=7){
+        alert("Try Again!");
+    } else {
+        alert ("Congratulations, You win!")
+    }
+}
+let myPets = ["dog", "cat", "goldfish"]
+
+for (let i = 0; i < myPets.length; i++)
+    console.log("I love my pet " + myPets[i])
+
+let n = 0;
+let x = 0;
+while(n < 3){
+    n++;
+    x += n;
+    console.log(n);
+    console.log(x); 
+    
+    if (x >+ 3) {
+        break; 
+    }
+}
+
+let answer;
+
+while(answer != 7) {
+    answer = prompt ("Guess a number between 1 and 10");
+    if (answer !=7){
+        alert("Try Again!");
+    } else {
+        alert ("Congratulations, You win!")
+    }
+}
+
+// adding mage - add folder // in html file add via code <script src="scrip.js"></script> 
+function displayRating(){
+    let output = ""
+    let rating = prompt("On a scale of 1 - 5, how much do you rate Chris's haircut")
+    for(let i = 0; i < rating; i++){
+        output += "<img src='Images/img002.jpg' alt='star rating'>";
+    }
+    return document.write(output);
+}
+
+

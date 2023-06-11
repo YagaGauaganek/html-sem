@@ -4,7 +4,10 @@
 
 * {
     text-align: center;
-    margin: 2 rem;
+    margin: 3 rem;
+}
+header {
+    font-family: monospace;
 }
 
 body {
@@ -13,4 +16,17 @@ background-color: lightgrey;
 
 section {
     background: white;
+}
+
+.img006.jpg {
+     width: 50%;
+}
+
+img {
+    max-width: 50%;
+    height: aut0;
+}
+
+h3 {
+    font-size: 5rem;
 }
