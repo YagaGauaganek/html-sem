@@ -296,3 +296,36 @@ function displayRating(){
 }
 
 
+// Yaga on Film CSS code draft 
+* {
+    font-family:monospace;
+}
+
+* {
+    text-align: center;
+    margin: 3 rem;
+}
+header {
+    font-family: monospace;
+}
+
+body {
+background-color: lightgrey;
+}
+
+section {
+    background: white;
+}
+
+.img006.jpg {
+     width: 50%;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
+
+h3 {
+    font-size: 5rem;
+}
